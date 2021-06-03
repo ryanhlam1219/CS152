@@ -60,9 +60,9 @@
 
 %type <ival> NUMBER
 %type <identifier_value> IDENTIFIER
-%type <expression> program functions function declaration declarations ident identifiers var vars
-%type <expression> bool_exp relation_and_exp relation_exp comp expression expressions multiplicative_expression term
-%type <statement> statements statement
+%type <E> program functions function declaration declarations ident identifiers var vars
+%type <E> bool_exp relation_and_exp relation_exp comp expression expressions multiplicative_expression term
+%type <S> statements statement
 
 %%
 
