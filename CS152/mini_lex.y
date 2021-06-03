@@ -58,11 +58,11 @@
 %token EQ NEQ LT GT LTE GTE
 %token SEMICOLON COLON COMMA L_SQUARE_BRACKET R_SQUARE_BRACKET ASSIGN
 
-%token <ival> NUMBER
-%token <identifier_value> IDENTIFIER
-%token <expression> program functions function declaration declarations ident identifiers var vars
-%token <expression> bool_exp relation_and_exp relation_exp comp expression expressions multiplicative_expression term
-%token <statement> statements statement
+%type <ival> NUMBER
+%type <identifier_value> IDENTIFIER
+%type <expression> program functions function declaration declarations ident identifiers var vars
+%type <expression> bool_exp relation_and_exp relation_exp comp expression expressions multiplicative_expression term
+%type <statement> statements statement
 
 %%
 
