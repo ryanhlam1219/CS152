@@ -2,7 +2,7 @@
 /* Include Stuff */
 %{
   #include <string>
-  #include "mini_1.tab.h"
+  #include "mini_lex.tab.h"
   
   int lineNum = 1, lineCol = 0;
   char* progName;
